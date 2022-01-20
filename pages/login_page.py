@@ -9,7 +9,7 @@ class LoginPage(BasePage):
 
     def should_be_login_url(self):
         url_substring = 'login'
-        # реализуйте проверку на корректный url адрес
+        #   проверка на корректный url адрес
         assert (url_substring in self.url), f'url != login_url expected'
 
     def should_be_login_form(self):

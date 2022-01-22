@@ -1,2 +1,3 @@
 # solid-bassoon
-pytest
+These are my pytests for Stepik course.
+
